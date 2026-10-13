@@ -20,5 +20,5 @@ async function rollDice() {
 
 // Adicionando função autoinvoke
 (async function main() {
-    console.log('hello world')
+    console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`)
 })();
