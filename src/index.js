@@ -17,3 +17,8 @@ const player2 = {
 async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
+
+// Adicionando função autoinvoke
+(async function main() {
+    console.log('hello world')
+})();
